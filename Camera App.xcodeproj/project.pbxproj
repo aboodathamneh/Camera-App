@@ -14,6 +14,7 @@
 		705A61BA219AC29900731518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705A61B9219AC29900731518 /* Assets.xcassets */; };
 		705A61BD219AC29A00731518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705A61BB219AC29A00731518 /* LaunchScreen.storyboard */; };
 		705A61C8219AC29A00731518 /* Camera_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705A61C7219AC29A00731518 /* Camera_AppTests.swift */; };
+		705A61D3219AC41A00731518 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 705A61D2219AC41A00731518 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		705A61C3219AC29A00731518 /* Camera AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		705A61C7219AC29A00731518 /* Camera_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_AppTests.swift; sourceTree = "<group>"; };
 		705A61C9219AC29A00731518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705A61D2219AC41A00731518 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				705A61AF219AC29800731518 /* AppDelegate.swift */,
 				705A61B1219AC29800731518 /* ViewController.swift */,
+				705A61D2219AC41A00731518 /* Resnet50.mlmodel */,
 				705A61B3219AC29800731518 /* Main.storyboard */,
 				705A61B9219AC29900731518 /* Assets.xcassets */,
 				705A61BB219AC29A00731518 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			files = (
 				705A61B2219AC29800731518 /* ViewController.swift in Sources */,
 				705A61B0219AC29800731518 /* AppDelegate.swift in Sources */,
+				705A61D3219AC41A00731518 /* Resnet50.mlmodel in Sources */,
 				705A61B8219AC29800731518 /* Camera_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
