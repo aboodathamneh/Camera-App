@@ -44,8 +44,8 @@ class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePic
             DispatchQueue.main.async {
                  self?.LaDiscription.text = "confidence =\(Int(firstResult.confidence*100))%,identifire)\((firstResult.identifier))"
 //            thise is for speach
-                let utTearnce = AVSpeechUtterance(string: ((self?.LaDiscription.text)!))
-                utTearnce.voice = AVSpeechSynthesisVoice(language: "en-gb")
+                let utTearnce = AVSpeechUtterance(string: (self?.LaDiscription.text)!)
+                utTearnce.voice = AVSpeechSynthesisVoice(language: "en-US")
                 let synthesizer = AVSpeechSynthesizer()
                 synthesizer.speak(utTearnce)
                 //                end
